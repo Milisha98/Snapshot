@@ -1,4 +1,5 @@
-﻿**/bin/
+﻿Verify-Unit-Test/**
+**/bin/
 **/obj/
 **/.vs/
 **/Testing/Snapshots
