@@ -1,0 +1,8 @@
+{
+    "elm.compiler": "./frontend/node_modules/.bin/elm",
+    "elm.makeCommand": "./frontend/node_modules/.bin/elm make",
+    "elm.includeUserFunctionDocumentation": true,
+    "[elm]": {
+      "editor.formatOnSave": true
+     },
+  }

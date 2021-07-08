@@ -1,0 +1,10 @@
+﻿[Bb]in/
+[Oo]bj/
+
+.vs/
+
+*.received.*
+*.user
+
+elm-stuff/
+elm.js

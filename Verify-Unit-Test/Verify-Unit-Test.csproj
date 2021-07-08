@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Verify_Unit_Test</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />
+    <PackageReference Include="Verify.NUnit" Version="11.18.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Testing\SnapshotTests.FindPerson_returns_a_valid_person.verified.txt">
+      <DependentUpon>SnapshotTests.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Testing\Snapshots\" />
+  </ItemGroup>
+
+</Project>
