@@ -5,6 +5,7 @@
 
 *.received.*
 *.user
+*.suo
 
 elm-stuff/
 elm.js
