@@ -1,5 +1,13 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿[Bb]in/
+[Oo]bj/
 
 /Verify-Unit-Test/Testing/Snapshots
+
+
+.vs/
+
+*.received.*
+*.user
+
+elm-stuff/
+elm.js
