@@ -1,7 +1,6 @@
-﻿Verify-Unit-Test/**
-**/bin/
-**/obj/
-**/.vs/
+﻿[Bb]in/
+[Oo]bj/
+.vs/
 **/Testing/Snapshots
 
 *.received.*

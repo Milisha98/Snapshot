@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Nathan\\techtalks\\snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj": {}
+    "C:\\Users\\nschu\\source\\repos\\TechTalks\\Snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Nathan\\techtalks\\snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj": {
+    "C:\\Users\\nschu\\source\\repos\\TechTalks\\Snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Nathan\\techtalks\\snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj",
+        "projectUniqueName": "C:\\Users\\nschu\\source\\repos\\TechTalks\\Snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj",
         "projectName": "Verify-Unit-Test",
-        "projectPath": "C:\\Development\\Nathan\\techtalks\\snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj",
-        "packagesPath": "C:\\Users\\nathan.schultz\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Nathan\\techtalks\\snapshot\\Verify-Unit-Test\\obj\\",
+        "projectPath": "C:\\Users\\nschu\\source\\repos\\TechTalks\\Snapshot\\Verify-Unit-Test\\Verify-Unit-Test.csproj",
+        "packagesPath": "C:\\Users\\nschu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nschu\\source\\repos\\TechTalks\\Snapshot\\Verify-Unit-Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\nathan.schultz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+          "C:\\Users\\nschu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
