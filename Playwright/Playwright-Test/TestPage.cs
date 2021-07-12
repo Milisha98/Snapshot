@@ -26,13 +26,21 @@ namespace Playwright_Test
             Page = await _browser.NewPageAsync();
             await Page.SetViewportSizeAsync(1024, 768);
             await Page.WaitForLoadStateAsync(LoadState.NetworkIdle);
-            await Page.GotoAsync(@"C:\Users\nschu\source\repos\TechTalks\Snapshot\elm-contact\Index.html");
+            string fileName = System.IO.Path.Combine(GetPath(), "Index.html");
+            await Page.GotoAsync(fileName);
             return Page;
         }
 
         IPage Page { get; set; }
 
         #region Dispose / DisposeAsync
+
+        private static string GetPath() =>
+            (new List<string>
+                { @"C:\Users\nschu\source\repos\TechTalks\Snapshot\elm-contact",
+                  @"C:\Development\Nathan\techtalks\Snapshot\elm-contact"
+                }
+            ).FirstOrDefault(d => System.IO.Directory.Exists(d));
 
         public void Dispose()
         {

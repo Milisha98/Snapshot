@@ -1,5 +1,7 @@
 ﻿using Microsoft.Playwright;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Snapshot
@@ -18,9 +20,10 @@ namespace Snapshot
             });
 
             // Create a Page
-            var page = await browser.NewPageAsync();           
-            await page.SetViewportSizeAsync(1024, 768);            
-            await page.GotoAsync(@"C:\Users\nschu\source\repos\TechTalks\Snapshot\elm-contact\Index.html");
+            var page = await browser.NewPageAsync();
+            await page.SetViewportSizeAsync(1024, 768);
+            string fileName = System.IO.Path.Combine(GetPath(), "Index.html");
+            await page.GotoAsync(fileName);
             await page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
             // Enter in some data
@@ -32,5 +35,18 @@ namespace Snapshot
             Console.WriteLine("Press a key to exit");
             Console.ReadKey();
         }
+
+
+
+
+
+        private static string GetPath() =>
+            (new List<string> 
+                { @"C:\Users\nschu\source\repos\TechTalks\Snapshot\elm-contact",
+                  @"C:\Development\Nathan\techtalks\Snapshot\elm-contact"
+                }
+            ).FirstOrDefault(d => System.IO.Directory.Exists(d));
+
+
     }
 }
