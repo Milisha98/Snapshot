@@ -19,7 +19,8 @@ namespace Verify_Unit_Test
                     FamilyName = "Peach",
                     Spouse = "Grettle",
                     Children = new string[] { "Sam", "Mary" },
-                    Address = new("4 Puddleduck Lane", "Australia")
+                    Address = new("4 Puddleduck Lane", "Australia"),
+                    //DOB = new(1980, 4, 20)
                 },
                 new()
                 {
@@ -29,7 +30,8 @@ namespace Verify_Unit_Test
                     FamilyName = "Miller",
                     Spouse = "Eugene",
                     Children = new string[] { "Trisha", "Sally" },
-                    Address = new("3 Bright Road", "Australia")
+                    Address = new("3 Bright Road", "Australia"),
+                    //DOB = new(1982, 11, 3)                    
                 }
             };
 

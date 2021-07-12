@@ -15,7 +15,7 @@ namespace Verify_Unit_Test
         public string Spouse { get; init; }
         public string[] Children { get; init; }
         public Address Address { get; init; }
-
+        public DateTime DOB { get; init; }
     }
 
     public record Address(string Street, string Country);
